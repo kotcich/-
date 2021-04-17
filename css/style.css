@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#roles, #form, #create {
+    position: fixed;
+}
+
+#form, #create {
+    right: 2%;
+}
+
+#form {
+    display: none;
+    margin-top: 20px;
+}
+
+.role {
+    display: inline-block;
+    margin-bottom: 5px;
+    border-bottom: 1px solid dimgray;
+}
+
+table {
+    max-width: 60%;
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+    max-width: 170px;
+    word-wrap: break-word;
+}
